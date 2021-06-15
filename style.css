@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculate-body {
+    position: relative;
+    background-color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.result {
+    padding: 40px;
+    background-color:white;
+    color:black;
+    font-size: 50px;
+    border-radius: 8px 8px 0 0;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.buttons button {
+    padding: 40px;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.buttons .btn{
+    background-color: #0c2835;
+}
+
+.buttons button:active{
+    background-color: white;
+}
+
+.equal {
+    background-color: darkmagenta;
+}
+
+.delete {
+    background-color: skyblue;
+}
+
+.plus {
+    background-color: forestgreen;
+}
+
+.minus {
+    background-color: lightseagreen;
+}
+
+.division {
+    background-color: maroon;
+}
+
+.remain {
+    background-color: orange;
+}
